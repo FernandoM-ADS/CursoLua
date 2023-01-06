@@ -24,6 +24,7 @@ while bool == nil do
     print(bool)
 end
 
+-- do while
 repeat
     print(bool)
     if numero == 50 then
@@ -31,9 +32,14 @@ repeat
     end
 until bool
 
+--decrementando: 10 é o máximo e 1 é o mínimo
 for 1=10, 1, -1 do
     print(i)
 end
 
 function soma(x, y)
     return x+y
+end
+
+soma(1, 3)
+print(soma(1, 3))
